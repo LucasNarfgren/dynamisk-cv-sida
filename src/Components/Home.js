@@ -34,7 +34,7 @@ export default function Home() {
                 <div className="content">
 
                     <h1 className="banner">Welcome to my personal website</h1>
-                    <h3 className="slogan">yolo</h3>
+                    <h3 className="slogan">This is where you can find out about me!</h3>
                 </div>
             </body>
 
