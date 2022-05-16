@@ -22,7 +22,7 @@ export default function Home() {
                     <nav className="navbar">
                         <ul>
                             <li>Home</li>
-                            <li><Link to="/">About</Link></li>
+                            <li><Link to="/About">About</Link></li>
                             <li><Link to="/Projects">Projects</Link></li>
                             <li><Link to="/Contact">Contact</Link></li>
                             <li><Link to="/CV">CV</Link></li>
