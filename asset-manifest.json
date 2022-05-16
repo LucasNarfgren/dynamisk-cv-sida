@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/dynamisk-cv-sida/static/css/main.19267cf6.css",
-    "main.js": "/dynamisk-cv-sida/static/js/main.c530c2b1.js",
+    "main.js": "/dynamisk-cv-sida/static/js/main.a486aaa1.js",
     "static/js/787.35f2ae86.chunk.js": "/dynamisk-cv-sida/static/js/787.35f2ae86.chunk.js",
     "index.html": "/dynamisk-cv-sida/index.html",
     "main.19267cf6.css.map": "/dynamisk-cv-sida/static/css/main.19267cf6.css.map",
-    "main.c530c2b1.js.map": "/dynamisk-cv-sida/static/js/main.c530c2b1.js.map",
+    "main.a486aaa1.js.map": "/dynamisk-cv-sida/static/js/main.a486aaa1.js.map",
     "787.35f2ae86.chunk.js.map": "/dynamisk-cv-sida/static/js/787.35f2ae86.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.19267cf6.css",
-    "static/js/main.c530c2b1.js"
+    "static/js/main.a486aaa1.js"
   ]
 }
