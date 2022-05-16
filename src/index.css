@@ -29,6 +29,7 @@ code {
   top: 0;
   left: 0;
   z-index: 100;
+  box-shadow: .5rem .5rem .5rem rgba(0, 0, 0, .4);
 }
 .header .logo {
   font-size: 2rem;
@@ -37,6 +38,7 @@ code {
 }
 .header .logo i {
   padding: 0 0.5rem;
+  
 }
 .header .navbar ul {
   list-style-type: none;
@@ -48,10 +50,14 @@ code {
   margin: 0 1.5rem;
   font-size: 2rem;
   color: lightgrey;
+  
+  
 }
 .header .navbar ul li a {
   font-size: 2rem;
   color: rgb(255, 174, 0);
+  
+  
 }
 .header .navbar ul li a:hover {
   color: lightgray;
@@ -73,6 +79,7 @@ code {
   padding: 0 1rem;
   position: relative;
   overflow: hidden !important;
+  background-color: #ccc;
 }
 
 @media(max-width:768px) {
@@ -142,3 +149,241 @@ li.dropdown {
 .dropdown:hover .dropdown-content {
   display: block; 
 } 
+
+/* CONTACT FORM */
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  
+  text-align: center; 
+  border-radius: 3px;
+  background-color: rgb(46, 46, 46);
+  padding: 50px;
+  width: 1278px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0,.3);
+}
+.container label{
+  color: rgb(255, 174, 0);
+  font-size: 1.5rem;
+  
+  
+}
+.container input{
+  width: 555px;
+  margin-top: 10px;
+  height: 50px;
+  font-size: 1.8rem;
+  border-radius: 3px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0,.3);
+}
+.container .textarea{
+  height: 250px;
+  width: 555px;
+  font-size: 1.2rem;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0,.3);
+}
+.container button{
+  width: 555px;
+  height: 50px;
+  background-color: rgb(255, 174, 0);
+  border-radius: 3px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0,.3);
+}
+.container button:hover{
+  background-color: #ccc;
+  cursor: pointer;
+}
+.content-about-left {
+  min-height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: right;
+  justify-content: center;
+  flex-flow: column;
+  -ms-flex-align: center;
+  padding: 0 1rem;
+  position: relative;
+  overflow: hidden !important;
+  background-color: #ccc;
+  
+  
+}
+.content-about-left .about{
+  padding: 1rem 1rem 1rem 1rem;
+  text-align: left;
+  justify-content: left;
+  width: 100%;
+  margin-bottom: 50px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+  
+}
+.content-about-left .about img {
+  background-color: rgb(46, 46, 46);
+  width: 35%;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  margin-bottom: 5rem;
+  float: right;
+  border-radius: 5px;
+}
+.content-about-left .about h1{
+  float: left;
+  width: 50%;
+  margin-top: 50px;
+  margin-right: 5rem;
+}
+.content-about-left .about p{
+  float: left;
+  width:50%;
+  margin-right: 5rem;
+  margin-bottom: 50px;
+}
+
+.content-about-right {
+  min-height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: right;
+  justify-content: center;
+  flex-flow: column;
+  -ms-flex-align: center;
+  padding: 0 1rem;
+  position: relative;
+  overflow: hidden !important;
+  background-color: #ccc;
+  
+}
+.content-about-right .about{
+  text-align: left;
+  justify-content: right;
+  width: 100%;
+  margin-bottom: 50px;
+  background-color: rgb(255, 255, 255);
+}
+.content-about-right .about img {
+  background-color: rgb(46, 46, 46);
+  width: 35%;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  margin-bottom: 5rem;
+  float: left;
+  border-radius: 5px;
+}
+.content-about-right .about h1{
+  float: right;
+  width: 50%;
+  margin-top: 50px;
+  margin-right: 5rem;
+}
+.content-about-right .about p{
+  float: right;
+  width:50%;
+  margin-right: 5rem;
+  margin-bottom: 50px;
+}
+
+.content-about{
+  
+  min-height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column;
+  -ms-flex-align: center;
+  padding: 0 1rem;
+  position: relative;
+  overflow: hidden !important;
+  background-color: #ccc;
+}
+.content-project-right{
+  min-height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: left;
+  justify-content: center;
+  flex-flow: column;
+  -ms-flex-align: center;
+  padding: 0 1rem;
+  position: relative;
+  overflow: hidden !important;
+  background-color: #ccc;
+  border-radius: 5px;
+  margin-bottom: 5rem;
+  padding-bottom: 5rem;
+}
+
+.content-project-right .about-project{
+  min-height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: left;
+  justify-content: center;
+  flex-flow: column;
+  -ms-flex-align: center;
+  padding: 0 1rem;
+  position: relative;
+  overflow: hidden !important;
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+  margin-bottom: 5rem;
+  padding-bottom: 5rem;
+}
+.content-project-right .about-project h1{
+  font-size:3.5rem;
+  padding: 1rem 1rem 1rem 1rem;
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+  margin-left: 5rem;
+  
+}
+.content-project-right .about-project h2{
+  font-size:2rem;
+  padding: 1rem 1rem 1rem 1rem;
+  margin-left: 5rem;
+  
+}
+.content-project-right .about-project a{
+  color: rgb(46, 46, 46);
+  padding: 1rem 1rem 1rem 1rem;
+  margin-left: 5rem;
+}
+.content-project-right .about-project a:hover{
+  color: rgb(255, 0, 0);
+}
+
+.content-project-right .about-project .space {
+  margin-bottom: 50px;
+  height:1px;
+  width:100%;
+  background-color: black;
+  border-radius: 100%;
+}
