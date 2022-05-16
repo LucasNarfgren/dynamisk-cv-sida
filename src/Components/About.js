@@ -9,7 +9,7 @@ export default function About() {
                         <a href="javascript:void(0)"><div className="fas fa-bars"></div></a>
                         
                             <nav className="dropdown-content">
-                                <li><Link to="/dynamisk-cv-sida/">Home</Link></li>
+                                <li><Link to="/Home">Home</Link></li>
                                 <li><Link to="/About">About</Link></li>
                                 <li><Link to="/Projects">Projects</Link></li>
                                 <li><Link to="/Contact">Contact</Link></li>
@@ -19,7 +19,7 @@ export default function About() {
                     </li>
                     <nav className="navbar">
                         <ul>
-                            <li><Link to="/dynamisk-cv-sida/">Home</Link></li>
+                            <li><Link to="/Home">Home</Link></li>
                             <li>About</li>
                             <li><Link to="/Projects">Projects</Link></li>
                             <li><Link to="/Contact">Contact</Link></li>
