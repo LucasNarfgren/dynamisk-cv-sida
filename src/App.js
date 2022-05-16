@@ -11,7 +11,7 @@ function App() {
   return (
     <div className="App">
       <Routes>
-        <Route path="/dynamisk-cv-sida" element={<Home />} />
+        <Route path="/" element={<Home />} />
         <Route path="/About" element={<About />} />
         <Route path="/Projects" element={<Projects />} />
         <Route path="/Contact" element={<Contact />} />

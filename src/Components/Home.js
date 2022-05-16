@@ -11,7 +11,7 @@ export default function Home() {
                         <a href="javascript:void(0)"><div className="fas fa-bars"></div></a>
                         
                             <nav className="dropdown-content">
-                                <li><Link to="/dynamisk-cv-sida">Home</Link></li>
+                                <li><Link to="/">Home</Link></li>
                                 <li><Link to="/About">About</Link></li>
                                 <li><Link to="/Projects">Projects</Link></li>
                                 <li><Link to="/Contact">Contact</Link></li>
