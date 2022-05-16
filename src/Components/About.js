@@ -27,10 +27,12 @@ export default function About() {
                         </ul>
                     </nav>
                 </header>
-                <div className="content">
-                    <h1 className="banner">About Me</h1>
-                    <p>Scroll Down</p>
-                </div>
+                <section id="home">
+                    <div className="content">
+                        <h1 className="banner">About Me</h1>
+                        <p>Scroll Down</p>
+                    </div>
+                </section>
                 <div className="content-about-left">
                     <div className="about">
                         <h1>Who am I?</h1>
@@ -120,14 +122,19 @@ export default function About() {
                             Velit necessitatibus ducimus incidunt pariatur quae quas alias,
                             cupiditate quod excepturi unde amet nobis consequatur accusantium
                             aut placeat quidem quibusdam magnam in qui.</p>
-                            
+
                         <img src="https://www.kamerabild.se/sites/kamerabild.se/files/styles/article_image/public/field/image/skarmavbild_2019-06-10_kl._08.25.30.png?itok=pPkJz20Q"></img>
 
-                    
+
                     </div>
 
                 </div>
-                
+                <footer className="footer">
+                    <nav className="navbar">
+                     
+                    </nav>
+                </footer>
+
 
             </body>
         </>

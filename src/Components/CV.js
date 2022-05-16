@@ -5,17 +5,17 @@ export default function CV() {
         <>
             <body>
                 <header className="header">
-                <li class="dropdown">
+                    <li class="dropdown">
                         <a href="javascript:void(0)"><div className="fas fa-bars"></div></a>
-                        
-                            <nav className="dropdown-content">
-                                <li><Link to="/">Home</Link></li>
-                                <li><Link to="/About">About</Link></li>
-                                <li><Link to="/Projects">Projects</Link></li>
-                                <li><Link to="/Contact">Contact</Link></li>
-                                <li><Link to="/CV">CV</Link></li>
-                            </nav>
-                        
+
+                        <nav className="dropdown-content">
+                            <li><Link to="/">Home</Link></li>
+                            <li><Link to="/About">About</Link></li>
+                            <li><Link to="/Projects">Projects</Link></li>
+                            <li><Link to="/Contact">Contact</Link></li>
+                            <li><Link to="/CV">CV</Link></li>
+                        </nav>
+
                     </li>
                     <nav className="navbar">
                         <ul>
@@ -27,13 +27,19 @@ export default function CV() {
                         </ul>
                     </nav>
                 </header>
+                <section id="home">
+                    <div className="content">
 
-                <div className="content">
+                        <h1 className="banner">My CV</h1>
+                        <h3 className="slogan">yolo</h3>
 
-                    <h1 className="banner">My CV</h1>
-                    <h3 className="slogan">yolo</h3>
-
-                </div>
+                    </div>
+                </section>
+                <footer className="footer">
+                    <nav className="navbar">
+                        
+                    </nav>
+                </footer>
             </body>
         </>
 

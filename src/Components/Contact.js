@@ -27,23 +27,23 @@ export default function Contact() {
                         </ul>
                     </nav>
                 </header>
+                <section id="home">
+                    <div className="content">
+                        <h1 className="banner">Contact Me</h1>
+                        <p>Scroll Down</p>
+                    </div>
+                </section>
 
                 <div className="content">
-                    <h1 className="banner">Contact Me</h1>
-                    <p>Scroll Down</p>
-                </div>
 
-
-                <div className="content">
-                    
                     <div className="container">
                         <form>
-
-                            <label>Firstname</label><br></br>
+                            <label></label><br></br>
+                            <input className="name" placeholder="Subject.."></input><br></br>
+                            <label></label><br></br>
                             <input className="name" placeholder="first name.."></input><br></br>
-                            <label>Lastname</label><br></br>
+                            <label></label><br></br>
                             <input className="name" placeholder="last name.."></input><br></br>
-
                             <label>Message</label><br></br>
                             <textarea className="textarea" placeholder="Write something..">
 
@@ -55,7 +55,11 @@ export default function Contact() {
 
                     </div>
                 </div>
+                <footer className="footer">
+                    <nav className="navbar">
 
+                    </nav>
+                </footer>
             </body>
 
         </>
