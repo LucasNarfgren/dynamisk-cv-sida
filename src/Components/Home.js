@@ -11,7 +11,7 @@ export default function Home() {
                         <a href="javascript:void(0)"><div className="fas fa-bars"></div></a>
                         
                             <nav className="dropdown-content">
-                                <li><Link to="/Home">Home</Link></li>
+                                <li><Link to="/">Home</Link></li>
                                 <li><Link to="/About">About</Link></li>
                                 <li><Link to="/Projects">Projects</Link></li>
                                 <li><Link to="/Contact">Contact</Link></li>
@@ -22,7 +22,7 @@ export default function Home() {
                     <nav className="navbar">
                         <ul>
                             <li>Home</li>
-                            <li><Link to="/About">About</Link></li>
+                            <li><Link to="/">About</Link></li>
                             <li><Link to="/Projects">Projects</Link></li>
                             <li><Link to="/Contact">Contact</Link></li>
                             <li><Link to="/CV">CV</Link></li>
